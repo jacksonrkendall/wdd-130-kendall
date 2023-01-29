@@ -17,6 +17,10 @@ text-align: center;
 margin: 0 auto;
 }
 
+#hero-img {
+width: 100%;
+}
+
 .button-box {
     text-align: center;
     margin: 0 auto;
