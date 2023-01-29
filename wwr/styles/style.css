@@ -44,7 +44,7 @@ header {
 
 header:hover {
     background-color: var(--bg-color);
-    color: var(red);
+    color: red;
 }
 
 nav a {
@@ -85,7 +85,7 @@ nav a:hover {
 
 .msg {
     background-color: var(--accent1-color);
-    color: var(--secondary-color));
+    color: var(--secondary-color);
 }
 
 .msg h2, p {
@@ -116,7 +116,7 @@ footer a:hover {
 }
 
 #copyright {
-    color: var(--secondary-color};
+    color: var(--secondary-color);
 }
 
 .home-title {
