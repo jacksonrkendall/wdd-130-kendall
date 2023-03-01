@@ -1,0 +1,21 @@
+#main {
+    text-align: center;
+}
+
+.img {
+    
+}
+
+#header {
+    text-align: center;
+}
+#footer {
+display: grid;
+grid-template-columns:  1fr 1fr 1fr;
+grid-template-rows: 1fr;
+background-color: #3f5b8b;
+color: white;
+text-align: center;
+padding: 15px;
+
+}
