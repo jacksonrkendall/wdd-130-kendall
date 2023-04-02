@@ -173,3 +173,16 @@ nav a:hover {
   border-top: 1px solid;
   border-right: 1px solid;
 }
+footer {
+  position: absolute;
+  /* Set the bottom of the footer to 0 to stick it to the bottom of the page */
+  bottom: 0;
+  /* Set the width to 100% to span the entire width of the page */
+  width: 100%;
+  /* Set a background color to distinguish the footer from the rest of the content */
+  background-color: #333;
+  /* Set a text color for the content inside the footer */
+  color: #fff;
+  /* Set some padding to give the content inside the footer some breathing room */
+  padding: 20px;
+}
