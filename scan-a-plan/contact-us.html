@@ -6,7 +6,7 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Scan-A-Plan</title>
     <link rel="icon" type="image/x-icon" href="#">
-    <link rel="stylesheet" href="styles/contact-us.css" />
+    <link rel="stylesheet" href="styles/contact-us.css">
 </head>
 <body>
     <header>
@@ -28,97 +28,16 @@
             </div> -->
             
             <a href="javascript:void(0);" class="icon" onclick="myFunction()">&#9776;</a>
-          </div>   
-          <style>
-            form {
-        /* Center the form on the page */
-        margin: 0 auto;
-        width: 400px;
-        /* Form outline */
-        padding: 1em;
-        border: 1px solid #ccc;
-        border-radius: 1em;
-      }
-      
-      ul {
-        list-style: none;
-        padding: 0;
-        margin: 0;
-      }
-      
-      form li + li {
-        margin-top: 1em;
-      }
-      
-      label {
-        /* Uniform size & alignment */
-        display: inline-block;
-        width: 90px;
-        text-align: right;
-      }
-      
-      input,
-      textarea {
-        /* To make sure that all text fields have the same font settings
-           By default, textareas have a monospace font */
-        font: 1em sans-serif;
-      
-        /* Uniform text field size */
-        width: 300px;
-        box-sizing: border-box;
-      
-        /* Match form field borders */
-        border: 1px solid #999;
-      }
-      
-      input:focus,
-      textarea:focus {
-        /* Additional highlight for focused elements */
-        border-color: #000;
-      }
-      
-      textarea {
-        /* Align multiline text fields with their labels */
-        vertical-align: top;
-      
-        /* Provide space to type some text */
-        height: 5em;
-      }
-      
-      .button {
-        /* Align buttons with the text fields */
-        padding-left: 90px; /* same size as the label elements */
-      }
-      
-      button {
-        /* This extra margin represent roughly the same space as the space
-           between the labels and their text fields */
-        margin-left: 0.5em;
-      }
-          </style>     
+          </div>
     </header>
 
     <main>
       <div id="heading">Contact Us </div>
-      <form action="/my-handling-form-page" method="post">
-        <ul>
-          <li>
-            <label for="name">Name:</label>
-            <input type="text" id="name" name="user_name" />
-          </li>
-          <li>
-            <label for="mail">E-mail:</label>
-            <input type="email" id="mail" name="user_mail" />
-          </li>
-          <li>
-            <label for="msg">Message:</label>
-            <textarea id="msg" name="user_message"></textarea>
-          </li>
-          <li class="button">
-            <button type="submit">Send your message</button>
-          </li>
-        </ul>
-      </form>
+      <p>Here you can schedule our services as well as schedule a time to talk with our professionals about what our services can do for you.</p>
+      <!-- Calendly inline widget begin -->
+      <div class="calendly-inline-widget" data-url="https://calendly.com/scan-a-plan" style="min-width:320px;height:630px;"></div>
+      <script type="text/javascript" src="https://assets.calendly.com/assets/external/widget.js" async></script>
+      <!-- Calendly inline widget end -->
     </main>
 
     <footer>

@@ -114,15 +114,28 @@
         }
     }
     footer {
-        position: absolute;
-        /* Set the bottom of the footer to 0 to stick it to the bottom of the page */
-        bottom: 0;
-        /* Set the width to 100% to span the entire width of the page */
-        width: 100%;
-        /* Set a background color to distinguish the footer from the rest of the content */
-        background-color: #333;
-        /* Set a text color for the content inside the footer */
-        color: #fff;
-        /* Set some padding to give the content inside the footer some breathing room */
-        padding: 20px;
+        background-color: var(--bg-color);
+        color: var(--secondary-color);
+        font-size: 1.2em;
+    }
+    
+    footer:hover {
+        background-color: var(--bg-color);
+        color: var(--secondary-color);
+    }
+    
+    footer a {
+        background-color: var(--bg-color);
+        color: var(--secondary-color);
+        text-decoration: none;
+    }
+    
+    footer a:hover {
+        background-color: var(--bg-color);
+        color: var(--accent2-color);
+        text-decoration: underline;
+    }
+
+    body {
+        background-color: #31a7cb;
     }
