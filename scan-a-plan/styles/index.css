@@ -216,3 +216,30 @@
   border: 1px solid #ccc;
   border-radius: 4px;
 }
+
+body {
+  background-color: #31a7cb;
+}
+
+footer {
+  background-color: var(--bg-color);
+  color: var(--secondary-color);
+  font-size: 1.2em;
+}
+
+footer:hover {
+  background-color: var(--bg-color);
+  color: var(--secondary-color);
+}
+
+footer a {
+  background-color: var(--bg-color);
+  color: var(--secondary-color);
+  text-decoration: none;
+}
+
+footer a:hover {
+  background-color: var(--bg-color);
+  color: var(--accent2-color);
+  text-decoration: underline;
+}
