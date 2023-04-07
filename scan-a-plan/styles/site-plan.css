@@ -186,11 +186,11 @@ footer{
   text-decoration: none;
 }
 footer a:link{
-  color: white;
+  color: #31a7cb;
   text-decoration: none;
 }
 footer a:hover{
-  color: white;
+  color: #31a7cb;
   text-decoration: underline;
 }
 footer a:visited{
@@ -198,7 +198,7 @@ footer a:visited{
   text-decoration: none;
 }
 footer:hover{
-  color: #ffffff;
+  color: #31a7cb;
   text-decoration: none;
 }
 footer .social img{
