@@ -209,12 +209,11 @@
 
   text-align: center;
 }
-.schedule {
+.schedule /*button to schedule*/ {
   display: inline-block;
   padding: 10px 20px;
-  background-color: #000000;
-  color: #333;
-  
+  background-color: black;
+  color: white;
   text-decoration: none;
   border: 1px solid #ccc;
   border-radius: 20px;
@@ -225,8 +224,27 @@ body {
   background-image: linear-gradient(to bottom right, red, yellow);
 }
 
+iframe {
+  display: block;
+  
+
+}
+
 main {
   font-family: var(--paragraph-font);
+}
+
+a:link{
+  color: white;
+  text-decoration: none;
+}
+a:hover{
+  color: white;
+  text-decoration: underline;
+}
+a:visited{
+  color: white;
+  text-decoration: none;
 }
 
 footer{
@@ -239,7 +257,7 @@ footer{
   align-items: center;
   text-decoration: none;
 }
-footer a:link{
+/* footer a:link{
   color: white;
   text-decoration: none;
 }
@@ -254,7 +272,7 @@ footer a:visited{
 footer:hover{
   color: white;
   text-decoration: none;
-}
+} */
 footer .social img{
   padding-top: 15px;
 }
